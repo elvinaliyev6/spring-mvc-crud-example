@@ -13,9 +13,6 @@ public class Product {
     private String madeIn;
     private double price;
 
-    protected Product() {
-    }
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long getId() {
